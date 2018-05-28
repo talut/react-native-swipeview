@@ -73,7 +73,7 @@ export default class BottomSheet extends React.Component {
           } }
         >
           <View>
-            { '' }
+            { this.props.children }
           </View>
         </ScrollView>
       </Interactable.View>
