@@ -1,23 +1,31 @@
 {
-  "name": "SwipeView",
+  "name": "react-native-swipeview",
   "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talut/react-native-swipeview.git"
   },
+  "description": "Easiest way to add a card view on your screen.",
+  "keywords": [
+    "react-native",
+    "swipe-view",
+    "swipeview",
+    "bottomsheet",
+    "swipe",
+    "react-native-swipe",
+    "view"
+  ],
+  "main": "index.js",
+  "author": "Talut Tasgiran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/talut/react-native-swipeview/issiues"
+  },
+  "homepage": "https://github.com/talut/react-native-swipeview",
   "dependencies": {
-    "react": "16.3.1",
-    "react-native": "0.55.4",
     "react-native-interactable": "^0.1.10"
   },
-  "devDependencies": {
-    "babel-jest": "23.0.1",
-    "babel-preset-react-native": "4.0.0",
-    "jest": "23.0.1",
-    "react-test-renderer": "16.3.1"
-  },
-  "jest": {
-    "preset": "react-native"
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
   }
 }
